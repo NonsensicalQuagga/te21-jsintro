@@ -1,7 +1,8 @@
 # Jsintro
 
-ctrl+o -> new file
-
-skriv något
-
-ctrl+s -> save
+* variabler
+* datatyper
+* operationer
+* selektioner
+* iteration
+* 
