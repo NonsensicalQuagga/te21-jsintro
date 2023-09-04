@@ -16,10 +16,9 @@ names.forEach(name =>{
 */
 let rolls =[];
 for(let i = 0; i < 100; i++){
-const roll =Math.ceil( Math.random() * 20);
-rolls.push(roll)
+rolls.push(Math.ceil(Math.random() * 20));
 }
 for (let i = 1; i < 21; i++){
-   console.log("Du har rullat ", i, " ", rolls.filter((number)=> number === i).length, " gånger");
+   console.log("Du har rullat ", i, ",", rolls.filter((number)=> number === i).length, " gånger");
 }
 
