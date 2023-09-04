@@ -46,4 +46,4 @@ let g = true; // boolean
 let h = false; // boolean
 
 
-console.log(c, e, g)
+console.log(c, e, g);
